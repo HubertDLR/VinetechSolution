@@ -44,6 +44,7 @@ body {
     align-items: center; /* Align items vertically */
     padding: 20px;
     background-color: #fdf9f1;
+    box-shadow: 10px 5px 5px black;
 }
 
 .content .text-section, .content .image-section {
@@ -59,10 +60,17 @@ body {
 }
 
 footer.contact {
-    background-color: #1d1c1b;
+    background-color: #49423b;
     color: #fdf9f1;
     text-align: center;
     padding: 60px;
+    height: 20vh;
+    display: flex;
+    justify-items: center;
+}
+
+footer div {
+    margin: auto;
 }
 
 footer.contact a {
