@@ -1,0 +1,72 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+.site-header {
+    background-color: #fdf9f1;
+    padding: 10px 0;    
+    text-align: center;
+}
+
+.site-header .logo {
+    width: 50px;
+    height: auto;
+}
+
+.site-header .company-name {
+    margin: 0;
+}
+
+.hero {
+    text-align: center;
+    background: url('untitled1.png') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .hero-title { 
+    color: #fdf9f1;
+    font-size: max(6vw, 6vh);
+    text-shadow: #000 1px 0 1vw;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; /* Align items vertically */
+    padding: 20px;
+    background-color: #fdf9f1;
+}
+
+.content .text-section, .content .image-section {
+    flex: 1;
+    min-width: 300px;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.content .image-section img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer.contact {
+    background-color: #1d1c1b;
+    color: #fdf9f1;
+    text-align: center;
+    padding: 60px;
+}
+
+footer.contact a {
+    color: #fdf9f1;
+    text-decoration: none;
+    font-weight: bold;
+}
